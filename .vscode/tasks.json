@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "Live Preview",
+			"workspacePath": "/home/mnm/Documents/portfolio/portfolio",
+			"problemMatcher": [
+				"$eslint-compact"
+			],
+			"label": "Live Preview: Run Server"
+		}
+	]
+}
