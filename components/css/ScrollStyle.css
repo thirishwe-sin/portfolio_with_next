@@ -1,0 +1,27 @@
+@keyframes scrollUp {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.scroll-container {
+  position: relative;
+  overflow: hidden;
+  height: 250px; /* Adjust height as needed */
+}
+
+.scroll-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  animation: scrollUp 10s linear infinite; /* Adjust duration as needed */
+}
+
+.scroll-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
