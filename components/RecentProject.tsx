@@ -4,8 +4,6 @@ import { PinContainer } from './ui/3d-pin';
 import { FaLocationArrow } from 'react-icons/fa';
 
 const RecentProject = () => {
-
-    console.log(projects);
     
     return (
         <div className='py-20'>
